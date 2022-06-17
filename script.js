@@ -134,22 +134,16 @@ const arr = [
 ];
 
 // price, title e count
-function getPrice() {
+function getPriceTitleCount() {
   for (let i = 0; i < arr.length; i++) {
     console.log(arr[i].price);
   }
-}
-function getTitle() {
   for (let i = 0; i < arr.length; i++) {
     console.log(arr[i].title);
   }
-}
-function getCount() {
   for (let i = 0; i < arr.length; i++) {
     console.log(arr[i].rating.count);
   }
 }
 
-getPrice();
-getTitle();
-getCount();
+getPriceTitleCount();
